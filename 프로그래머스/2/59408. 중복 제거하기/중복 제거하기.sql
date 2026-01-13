@@ -1,5 +1,4 @@
--- 코드를 입력하세요
-SELECT count(DISTINCT name) 
-#count(*)
+# COUNT는 자체적으로 NULL 값을 세지 않는 특성이 있다.
+SELECT COUNT(DISTINCT name) 
 FROM ANIMAL_INS
-#WHERE NAME IS NOT NULL
+WHERE name IS NOT NULL
