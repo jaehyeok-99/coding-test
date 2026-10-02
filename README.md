@@ -1,26 +1,55 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:3B3B98,100:182C61&height=250&section=header&text=Jaehyeok's%20Algo&fontSize=70&fontColor=ffffff&desc=Python%20and%20SQL%20Study%20Space&descAlignY=75&descAlign=50)
+# Coding Test Study
 
-<div align="center">
+백준과 프로그래머스의 문제를 풀며 Python 기초 문법과 SQL 조회·집계·조인을 연습한 기록입니다. 현재 저장소에는 SQL 풀이가 가장 많이 남아 있습니다.
 
-<h3>👋 Welcome to My Algo-Repo</h3>
-<p>
-  성장하는 개발자 <b>jaehyeok-99</b>의<br/>
-  알고리즘 및 SQL 문제 풀이 저장소.
-</p>
+## 학습 자료
 
-<br/>
+- [백준 온라인 저지](https://www.acmicpc.net/): 문제 풀이 기록
+- [프로그래머스 코딩테스트 연습](https://school.programmers.co.kr/learn/challenges): Python·SQL 문제와 풀이
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/>
-<img src="https://img.shields.io/badge/Programmers-1E2A3C?style=flat-square&logo=Programmers&logoColor=white"/>
+문제별 폴더에는 풀이 코드와 문제 설명·원문 링크가 담긴 README가 있습니다.
 
-</div>
+## 저장된 풀이
 
-<br/>
+2026-10-02 기준, 풀이 파일 수를 집계했습니다. 같은 수의 정답 인증이나 현재 실력을 의미하는 수치는 아닙니다.
 
-### 🎯 목표
-- **1일 3문제 풀기** (1 Day 3 Commit)
-- **Python**: 코딩 테스트 기초 문법 마스터
-- **SQL**: 데이터 분석 및 처리 능력 향상
+| 구분 | 내용 | 풀이 파일 수 |
+| --- | --- | --- |
+| [백준](./백준/) | Bronze 2557 · Hello World, Python | 1 |
+| [프로그래머스 Level 0](./프로그래머스/0/) | Python 기초 문제 | 10 |
+| [프로그래머스 Level 1~4](./프로그래머스/) | SQL 문제 | 92 |
 
-<br/>
+SQL 풀이 92개에는 확장자가 `.undefined`로 저장된 「동명 동물 수 찾기」 파일 1개가 포함됩니다. 파일 내용은 SQL입니다.
+
+## 학습 내용
+
+### Python 기초
+
+- 출력과 함수의 반환값
+- 사칙연산, 몫과 나머지
+- 숫자 비교와 조건 분기
+- 각도 분류와 금액 계산
+
+### SQL 문제 풀이
+
+- SELECT와 WHERE로 필요한 데이터 조회
+- ORDER BY로 결과 정렬
+- COUNT·SUM·AVG·MAX 등 집계
+- GROUP BY와 HAVING으로 그룹별 결과와 조건 처리
+- INNER JOIN과 외부 조인으로 테이블 연결
+- 서브쿼리와 상관 서브쿼리
+- CASE로 조건에 따라 결과 분류
+- NULL 처리, 날짜·문자열 가공
+- UNION으로 조회 결과 통합
+
+대표적으로 「상품 별 오프라인 매출 구하기」에서는 조인과 합계를, 「대장균들의 자식의 수 구하기」에서는 상관 서브쿼리를, 「오프라인/온라인 판매 데이터 통합하기」에서는 UNION과 날짜 형식을 연습했습니다.
+
+## 코드 확인 방법
+
+- 백준 Python 코드는 해당 파일을 직접 실행해 출력 결과를 확인할 수 있습니다.
+- 프로그래머스 Python 코드는 `solution(...)` 함수 형식입니다. 문제별 입력값을 전달하거나 원문 문제의 실행 환경에서 확인합니다.
+- SQL은 문제에서 제공하는 테이블과 데이터가 있어야 실행할 수 있습니다. 이 저장소에는 별도의 데이터베이스 구축 스크립트가 없습니다.
+
+## 백준 링크 안내
+
+2026-10-02 확인 시 [백준 공식 홈페이지](https://www.acmicpc.net/)는 기존 운영 기간을 2010-03-19~2026-04-28로 표시하고, 채점 서비스 준비 중이라고 안내합니다. 기존 문제 링크는 출처 기록으로 남겨 두었으며 서비스 상태에 따라 접근이 제한될 수 있습니다.
